@@ -1,0 +1,28 @@
+body {
+    background-color: #968686;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: #968686;
+  }
+  .one {
+    grid-column: 1 /3;
+    grid-row: 1/4;
+    background-color: #968686;
+  }
+  
+  .two {
+    grid-column-start: 2;
+    grid-row-start: 1/4;
+    background-color: #968686;
+  }
+
+  .three {
+    grid-column: 1/4;
+    grid-row: 2 / 5;
+    background-color: orangered;
+  }
